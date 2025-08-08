@@ -1,6 +1,6 @@
-tensorflow==2.15.0
+Flask==2.3.2
+tensorflow-cpu==2.15.0
 keras==2.15.0
 numpy==1.26.4
-pillow==10.2.0
-opencv-python==4.9.0.80
-matplotlib==3.8.3
+Pillow==10.2.0
+werkzeug==2.3.7
