@@ -5,7 +5,7 @@
 
 
 ## Basic Details
-Jhatpat BrushCheck is a lightweight, pre -trained AI-powered web application designed to help users quickly check the condition of their toothbrushes. With just a simple photo upload or webcam capture, the app classifies the toothbrush into one of four categories: New, Used, Dirty, or Frayed. It also provides an estimated bacteria level on the toothbrush which is not accurate .
+Jhatpat BrushCheck is a lightweight, pre-trained AI-powered web application designed to help users quickly check the condition of their toothbrushes. With just a simple photo upload or webcam capture, the app classifies the toothbrush into one of four categories: New, Used, Dirty, or Frayed. It also provides an estimated bacteria level on the toothbrush which is not accurate .
 
 ### Team Name: Null&Void
 
@@ -32,7 +32,7 @@ A quick, quirky web app that judges your toothbrush for you! Upload a photo and 
 For Software:
 - Python
 - Flask (Web framework)
-- Keras (AI model)
+- Teachable Machine from Google
 - HTML, CSS, JavaScript (Frontend)
 
 
@@ -62,7 +62,7 @@ For Software:
 *Uploading Image using WebCam*
 
 ![Result of Uploaded using Webcam ](images/webuploadedresult.png "App Screenshot")
-*Resulr of WebCam uploaded Image using WebCam*
+*Result of WebCam uploaded Image using WebCam*
 
 
 
@@ -74,7 +74,7 @@ For Software:
 
 
 ## Team Contributions
-- Srinivas: Model integration organising dataset and tarining, backend & frontend coding
+- Srinivas: Model integration organising dataset and training, backend & frontend coding
 - Vidhath N Shetty: Motivation
 
 
