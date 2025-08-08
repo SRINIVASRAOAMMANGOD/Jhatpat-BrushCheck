@@ -68,10 +68,16 @@ For Software:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+<!-- For local video file (if your Markdown viewer supports it): -->
+<video width="640" controls>
+  <source src="images/demo.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
-
+# Additionals
+Check this url for running in  local machine 
+``` bash 
+https://github.com/SRINIVASRAOAMMANGOD/Jhatpat-Brushcheck-LocalHost.git 
 
 ## Team Contributions
 - Srinivas: Model integration organising dataset and training, backend & frontend coding
