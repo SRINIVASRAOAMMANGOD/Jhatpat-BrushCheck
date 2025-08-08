@@ -1,23 +1,22 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# Jhatpat BrushCheck🎯
+# Jhatpat BrushCheck 🎯
 
 
 ## Basic Details
-Jhatpat BrushCheck is a lightweight, AI-powered web application designed to help users quickly check the condition of their toothbrushes. With just a simple photo upload or webcam capture, the app classifies the toothbrush into one of four categories: New, Used, Dirty, or Frayed. It also provides an estimated bacteria level on the toothbrush, helping users understand when it's time to replace their brush for better oral hygiene.
+Jhatpat BrushCheck is a lightweight, pre -trained AI-powered web application designed to help users quickly check the condition of their toothbrushes. With just a simple photo upload or webcam capture, the app classifies the toothbrush into one of four categories: New, Used, Dirty, or Frayed. It also provides an estimated bacteria level on the toothbrush which is not accurate .
 
-The goal of Jhatpat BrushCheck is to promote better dental care by making it easy and fun for everyone to monitor their toothbrush condition regularly — without any technical hassle.
 ### Team Name: Null&Void
 
 
 ### Team Members
-- Team Lead:Srinivas - LBS College of Engineering Kasaragod
-- Member 2: Vidhath N Shetty - LBS College of Engineering Kasaragod
+- Team Lead: Srinivas - LBS College of Engineering Kasaragod
+- Member 1: Vidhath N Shetty - LBS College of Engineering Kasaragod
 
 
 ### Project Description
-Jhatpat BrushCheck lets you quickly check your toothbrush’s condition with a simple photo. Using AI, it tells you if your brush is new, used, dirty, or frayed — plus an estimate of bacteria level. Keep your smile fresh with this fast and fun tool!
+Jhatpat BrushCheck lets you quickly check your toothbrush’s condition with a simple photo. Using pretrained model, it tells you if your brush is new, used, dirty, or frayed — plus an estimate of bacteria level. Keep your smile fresh with this fast and fun tool!
 
 
 ### The Problem (that doesn't exist)
@@ -36,8 +35,7 @@ For Software:
 - Keras (AI model)
 - HTML, CSS, JavaScript (Frontend)
 
-For Hardware:
-- Nil
+
 
 ### Implementation
 For Software:
@@ -50,7 +48,7 @@ python app.py
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 ![Home page of the app](images/home.png "App Screenshot")
 *This is the Home page*
 
@@ -66,22 +64,14 @@ For Software:
 ![Result of Uploaded using Webcam ](images/webuploadedresult.png "App Screenshot")
 *Resulr of WebCam uploaded Image using WebCam*
 
-# Diagrams
-- Nil
 
-# Schematic & Circuit
-- Nil
-
-# Build Photos
-- Nil
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-- Live demo link: https://jhatpatbrushcheck.example.com
+
 
 ## Team Contributions
 - Srinivas: Model integration organising dataset and tarining, backend & frontend coding
