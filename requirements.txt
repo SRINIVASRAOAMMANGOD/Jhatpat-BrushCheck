@@ -1,8 +1,8 @@
 Flask==2.3.2
-tensorflow-cpu>=2.15.0
-gunicorn
-numpy
-pillow
-opencv-python
-matplotlib
-werkzeug
+tensorflow-cpu==2.15.0
+gunicorn==20.1.0
+numpy==1.24.4
+pillow==11.3.0
+opencv-python==4.7.0.72
+matplotlib==3.7.1
+werkzeug==2.3.4
