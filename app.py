@@ -15,10 +15,10 @@ app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50 MB max upload size
 # Make sure upload folder exists at startup
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Load model and class names once globally
+# Load model and class names once globally, stripping whitespace
 model = load_model('model/keras_model.h5', compile=False)
 with open('model/labels.txt', 'r') as f:
-    class_names = f.read().splitlines()
+    class_names = [line.strip() for line in f.readlines()]
 
 bacteria_counts = {
     "new": "Low",
@@ -72,7 +72,7 @@ def upload_and_predict():
 
         prediction = model.predict(image_array)
         index = np.argmax(prediction)
-        class_name = class_names[index]
+        class_name = class_names[index].strip()  # Strip whitespace here too
         confidence = prediction[0][index] * 100
 
         bacteria = bacteria_counts.get(class_name.lower(), "Unknown")
