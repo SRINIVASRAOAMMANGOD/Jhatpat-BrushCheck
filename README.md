@@ -68,8 +68,7 @@ For Software:
 
 ### Project Demo
 # Video
-[Demo video]
-(https://youtu.be/IETfPBJKWR0?feature=shared)
+[Jhatpat-BrushCheck Demo](https://youtu.be/IETfPBJKWR0?feature=shared)
 
 # Additionals
 Check this url for running in  local machine 
