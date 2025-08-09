@@ -11,8 +11,8 @@ Jhatpat BrushCheck is a lightweight, pre-trained AI-powered web application desi
 
 
 ### Team Members
-- Team Lead: Srinivas - LBS College of Engineering Kasaragod
-- Member 1: Vidhath N Shetty - LBS College of Engineering Kasaragod
+- Team Lead: Srinivas - LBS College of Engineering Povval
+- Member 1: Vidhath N Shetty - LBS College of Engineering Povval
 
 
 ### Project Description
