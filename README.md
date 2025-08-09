@@ -77,7 +77,7 @@ https://github.com/SRINIVASRAOAMMANGOD/Jhatpat-Brushcheck-LocalHost.git
 ```
 ## Team Contributions
 - Srinivas: Model integration organising dataset and training, backend & frontend coding
-- Vidhath N Shetty: Motivation
+- Vidhath N Shetty: Documentaion ,Brainstroimg, Motivation
 
 
 ---
