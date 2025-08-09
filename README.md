@@ -68,11 +68,8 @@ For Software:
 
 ### Project Demo
 # Video
-<!-- For local video file (if your Markdown viewer supports it): -->
-<video width="640" controls>
-  <source src="images/demo.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+[Demo video]
+(https://youtu.be/IETfPBJKWR0?feature=shared)
 
 # Additionals
 Check this url for running in  local machine 
