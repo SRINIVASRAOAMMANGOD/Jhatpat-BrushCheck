@@ -32,7 +32,7 @@ A quick, quirky web app that judges your toothbrush for you! Upload a photo and 
 For Software:
 - Python
 - Flask (Web framework)
-- Teachable Machine from Google
+- Teachable Machine from Google (Model)
 - HTML, CSS, JavaScript (Frontend)
 
 
