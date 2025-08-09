@@ -30,7 +30,7 @@ A quick, quirky web app that judges your toothbrush for you! Upload a photo and 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- Python
+- Python Use Only 3.11.9
 - Flask (Web framework)
 - Teachable Machine from Google (Model)
 - HTML, CSS, JavaScript (Frontend)
