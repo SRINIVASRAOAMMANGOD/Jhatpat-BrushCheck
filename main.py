@@ -3,16 +3,20 @@ import numpy as np
 from keras.models import load_model
 from PIL import Image
 import re
-# Paths
-model_path = r"C:\Users\HP\Desktop\toothbrush_classifier\model\keras_model.h5"
-labels_path = r"C:\Users\HP\Desktop\toothbrush_classifier\model\labels.txt"
-images_folder = r"C:\Users\HP\Desktop\toothbrush_classifier\images"
+
+# Base directory of the project
+BASE_DIR = os.path.dirname(__file__)
+
+# Paths (relative, so they work on Railway)
+model_path = os.path.join(BASE_DIR, "model", "keras_model.h5")
+labels_path = os.path.join(BASE_DIR, "model", "labels.txt")
+images_folder = os.path.join(BASE_DIR, "images")
 
 # Load model and labels
 model = load_model(model_path, compile=False)
 class_names = open(labels_path, "r").read().splitlines()
 
-# Simulated bacteria count (Breezel) mapping for each class
+# Simulated bacteria count mapping
 BACTERIA_MAPPING = {
     "new": 5,
     "used": 200,
@@ -36,13 +40,11 @@ for img_name in os.listdir(images_folder):
         # Predict
         prediction = model.predict(image_array, verbose=0)
         index = np.argmax(prediction)
-        class_name = class_names[index].lower()  # to match keys in BACTERIA_MAPPING
-        # Remove any leading numbers and spaces (e.g., "2 dirty" -> "dirty")
-        class_name = re.sub(r"^\d+\s*", "", class_name)
+        class_name = class_names[index].lower()
+        class_name = re.sub(r"^\d+\s*", "", class_name)  # Remove leading numbers
         confidence_score = prediction[0][index]
 
-        # Get Breezel (bacteria count) from mapping
+        # Get bacteria count from mapping
         breezel_count = BACTERIA_MAPPING.get(class_name, "Unknown")
 
-        # Print result with Breezel count
         print(f"{img_name} --> {class_name} ({confidence_score*100:.2f}%) | Breezel (bacteria count): {breezel_count}")
