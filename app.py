@@ -16,9 +16,16 @@ app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50 MB max upload size
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load model and class names once globally, stripping whitespace
-model = load_model('model/keras_model.h5', compile=False)
-with open('model/labels.txt', 'r') as f:
+# Get absolute paths for model files
+base_dir = os.path.dirname(__file__)
+model_path = os.path.join(base_dir, 'model', 'keras_model.h5')
+labels_path = os.path.join(base_dir, 'model', 'labels.txt')
+
+# Load model and class names once globally
+model = load_model(model_path, compile=False)
+with open(labels_path, 'r') as f:
     class_names = [line.strip() for line in f.readlines()]
+
 
 bacteria_counts = {
     "new": "Low",
