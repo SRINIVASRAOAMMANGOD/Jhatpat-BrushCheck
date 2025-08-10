@@ -17,6 +17,7 @@ Jhatpat BrushCheck is a lightweight, pre-trained AI-powered web application desi
 
 ### Project Description
 Jhatpat BrushCheck lets you quickly check your toothbrush’s condition with a simple photo. Using pretrained model, it tells you if your brush is new, used, dirty, or frayed — plus an estimate of bacteria level. Keep your smile fresh with this fast and fun tool!
+
 Hosted link : https://jhatpat-brushcheck-production.up.railway.app/
 
 ### The Problem (that doesn't exist)
